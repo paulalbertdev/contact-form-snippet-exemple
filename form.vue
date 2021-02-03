@@ -55,10 +55,10 @@
               rows="8"
               trim
             ></b-form-textarea>
-            <b-form-invalid-feedback v-if="!$v.form.name.required"
+            <b-form-invalid-feedback v-if="!$v.form.content.required"
               >Field must be filled.</b-form-invalid-feedback
             >
-            <b-form-invalid-feedback v-if="!$v.form.name.minLength"
+            <b-form-invalid-feedback v-if="!$v.form.content.minLength"
               >Message content is too short.</b-form-invalid-feedback
             >
           </b-form-group>
